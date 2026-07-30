@@ -1,0 +1,32 @@
+generated: '2026-07-20'
+method: derived
+source: https://www.liveaware.io/
+note: >-
+  First-party capture SDK and engine plugins are advertised on the Live Aware Labs website but
+  are distributed through the product (developer portal at developers.liveaware.io is
+  access-gated). No public package-registry listing (npm/PyPI/Maven/NuGet/crates.io) was found.
+  Entries below are derived from the marketing site, not from a registry.
+packages:
+- name: LIVE AWARE PC SDK
+  kind: sdk
+  platform: PC (Windows)
+  official: true
+  registry: none
+  description: >-
+    PC-based SDK that captures video, telemetry, and in-game events and streams them to the
+    LIVE AWARE playtesting platform.
+  source: https://www.liveaware.io/
+- name: LIVE AWARE Unreal Engine Plugin
+  kind: plugin
+  platform: Unreal Engine
+  official: true
+  registry: none
+  description: Engine plugin for integrating LIVE AWARE capture into Unreal Engine projects.
+  source: https://www.liveaware.io/
+- name: LIVE AWARE Unity Plugin
+  kind: plugin
+  platform: Unity
+  official: true
+  registry: none
+  description: Engine plugin for integrating LIVE AWARE capture into Unity projects.
+  source: https://www.liveaware.io/

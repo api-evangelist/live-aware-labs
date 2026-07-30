@@ -1,0 +1,45 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://trust.liveaware.io/
+url: https://trust.liveaware.io/
+monitoring: Secureframe
+certifications:
+- name: SOC 2 Type 1
+  date_granted: '2025-02-28'
+  availability: report available by request
+- name: SOC 2 Type 2
+  date_granted: '2025-05-31'
+  availability: report available by request
+control_categories:
+- change management
+- availability
+- incident response
+- access security
+sub_processors:
+- name: Anthropic
+  purpose: AI processing
+- name: DeepL
+  purpose: language translation
+- name: Deepgram
+  purpose: voice transcription
+- name: Google Cloud Platform
+  purpose: backend/database hosting, logs, metrics
+- name: LiveKit
+  purpose: low-latency video streaming
+- name: Looker Studio
+  purpose: business intelligence
+- name: MUX
+  purpose: video/audio storage
+- name: OpenAI
+  purpose: AI data processing
+- name: PostHog
+  purpose: analytics and monitoring
+evidence:
+- source: https://trust.liveaware.io/
+  keywords:
+  - soc 2 type 1
+  - soc 2 type 2
+  - secureframe
+  - trust center
+  - sub-processors
