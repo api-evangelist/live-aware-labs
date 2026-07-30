@@ -1,7 +1,26 @@
 aid: live-aware-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/live-aware-labs.png
 name: Live Aware Labs
-description: Live Aware Labs is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Live Aware Labs (LIVE AWARE) is a virtual playtesting and player-insights lab for game
+  studios and researchers. The platform consolidates gameplay footage, player feedback, and
+  community discussion from sources such as Discord, Twitch, YouTube, and internal playtests
+  into a single dashboard, then applies AI to surface trends, player sentiment, and critical
+  feedback in real time. A PC-based SDK captures video, telemetry, and in-game events, with
+  plugins for Unreal Engine and Unity and no-code integrations into Slack, Jira, Monday.com,
+  and OBS. Live Aware Labs is backed by a16z and was added to the API Evangelist network as a
+  venture-portfolio lead; this profile is enriched from the company's public web surface.
 url: https://raw.githubusercontent.com/api-evangelist/live-aware-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +30,49 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Game Development
+- Playtesting
+- Player Analytics
+- Game Analytics
+- Video Telemetry
+- Developer Tools
+- Artificial Intelligence
 apis: []
+common:
+- type: TrustCenter
+  url: security/live-aware-labs-trust-center.yml
+- type: DomainSecurity
+  url: security/live-aware-labs-domain-security.yml
+- type: Website
+  url: https://www.liveaware.io/
+- type: DeveloperPortal
+  url: https://developers.liveaware.io/
+- type: Login
+  url: https://www.liveaware.io/login
+- type: SignUp
+  url: https://www.liveaware.io/get-started
+- type: TermsOfService
+  url: https://www.liveaware.io/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.liveaware.io/legal/privacy
+- type: Compliance
+  url: https://trust.liveaware.io/
+- type: Packages
+  url: packages/live-aware-labs-packages.yml
+- type: SDKs
+  url: packages/live-aware-labs-packages.yml
+- type: LLMsTxt
+  url: llms/live-aware-labs-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
